@@ -1,0 +1,16 @@
+* >Natural Source Header 000000
+* :NatName HELLOA
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program HELLO.
+/**
+/** :author iral
+DEFINE DATA LOCAL
+    1 #SUM (N3)
+END-DEFINE
+#SUM := 1 + 5
+WRITE 'Hello...' #SUM 
+/* a comment /** :since 10/22
+CALLNAT 'TESTME' 'IN' 
+END

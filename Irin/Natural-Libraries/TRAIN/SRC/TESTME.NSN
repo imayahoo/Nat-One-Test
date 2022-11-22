@@ -1,0 +1,16 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Subprogram TESTME.
+/**
+/** :author iral
+/* TODO Enter your code here
+define data parameter
+1 #in (a2)  /** :in BlahInput
+1 #out (a2) /** :out BlahOutput
+end-define
+#OUT := 'XX'
+write 'testing' #in #out
+/* TODO Will a bookmark appear?
+END

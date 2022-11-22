@@ -1,0 +1,16 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program HELLO.
+/**
+/** :author iral
+/** :version 
+DEFINE DATA LOCAL
+  1 #SUM (N3) 
+  1 #OUT (A2) 
+END-DEFINE
+#SUM := 1 + 5
+WRITE 'Hello...' #SUM /* testing... /** Write hello message
+CALLNAT 'TESTME' 'IN' #OUT
+END
